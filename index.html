@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css file to style -->
+    <link rel="stylesheet" href="style.css">
+    <title>Happy Birthday</title>
+</head>
+<body>
+    <!-- <p>Happy Birthday Mr. Ramjisingh!</p> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/addons/p5.sound.js"></script>
+
+    <script src="confetti.js"></script>
+    <script src = "./Line.js"></script>
+    <script src = "./Spike.js"></script>
+    <script src = "./Rect.js"></script>
+    <script src = "./Level.js"></script>
+    <script src = "./Camera.js"></script>
+    <script src = "./Player.js"></script>
+    <script src = "./levels.js"></script>
+
+    <script src="fourier.js"></script>
+    <!-- Here link the script file which you downloaded from the above link -->
+    
+    <script>
+        // for starting the confetti 
+        const start = () => {
+            setTimeout(function() {
+                confetti.start()
+            }, 0); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+        };
+
+        //  for stopping the confetti 
+
+        const stop = () => {
+            setTimeout(function() {
+                confetti.stop()
+            }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+        };
+        // after this here we are calling both the function so it works
+        start();
+        // stop();
+    </script>
+</body>
+</html>

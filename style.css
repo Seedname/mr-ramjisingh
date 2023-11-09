@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/* Putting font poppins it is a very beautiful font also if you dont have installed it on your system it might not show so you need to import it from *google fonts* */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Now here we are just styling the background and centering it to the middle */
+
+body {
+    margin: 0;
+    overflow: hidden;
+ }
